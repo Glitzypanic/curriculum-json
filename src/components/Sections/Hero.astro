@@ -1,6 +1,7 @@
 ---
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
+import Mail from "../icons/Mail.astro";
 
 const { name, label, image, location, email, phone, profiles } = basics;
 const { city, region } = location;
@@ -22,7 +23,9 @@ const { city, region } = location;
               title={`Enviar un correo electrónico a ${name} al correo ${email}`}
               target="_blank"
               rel="noopener noreferrer"
-            />
+            >
+              <Mail />
+            </a>
           )
         }
       </footer>
