@@ -11,6 +11,7 @@ import { work } from "@cv";
         ({ name, startDate, endDate, position, summary, highlights }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear = endDate ? new Date(endDate).getFullYear() : "Actual";
+          const years = `${startYear} - ${endYear}`;
           return (
             <li>
               <h3>{name}</h3>
