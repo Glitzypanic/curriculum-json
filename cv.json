@@ -6,8 +6,8 @@
     "email": "jose.fariasdv@gmail",
     "phone": "+569 26334373",
     "url": "https://jfdev.pro",
-    "summary1": "Me llamo José Farías, un ingeniero en sonido de 25 años de Quilpué, Chile, que se ha reinventado como desarrollador web frontend. Mi formación académica y mi dedicación autodidacta me han permitido adquirir una sólida base de conocimientos en desarrollo web. Actualmente, me dedico a tiempo completo a esta apasionante disciplina y busco oportunidades que me permitan demostrar mis habilidades y seguir aprendiendo.",
-    "summary2": "Uno de mis logros más recientes es el desarrollo de una página web para una ONG llamada Multidiversos. Este proyecto me permitió aplicar mis habilidades técnicas y contribuir a una causa significativa. Mi objetivo es seguir adquiriendo conocimientos y habilidades para convertirme en un desarrollador full stack. Estoy comprometido con el aprendizaje continuo y estoy emocionado por la oportunidad de expandir mi conjunto de habilidades y profundizar en todas las facetas del desarrollo web.",
+    "summary1": "Tengo 25 años y soy de Quilpué, Chile. Apasionado por la música y la tecnología. Desde mi infancia, siempre he sentido una profunda fascinación por la tecnología y por comprender cómo funcionan las cosas. Rara vez he necesitado recurrir a servicios técnicos para mis dispositivos, pues disfruto investigando las causas de los problemas y encontrando soluciones por mí mismo. Esta pasión me llevó a tener mi primer contacto tanto con el software como con el hardware. Hasta el día de hoy, nunca me he quedado de brazos cruzados ante un desafío tecnológico, siempre buscando activamente resolverlo.",
+    "summary2": "Me titulé en Ingeniería en Sonido y, después de trabajar en ese campo, decidí cambiar hacia el desarrollo web, cambio que no me costó mucho, ya que por lo que te conté más arriba, siempre he tenido un computador en mis manos. Durante más de un año, me he especializado en diversos lenguajes y herramientas de programación para forjar mi camino como Desarrollador Web. Me apasiona especialmente enfocarme en el diseño y la estructura de mis proyectos.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -33,7 +33,7 @@
       "name": "Multidiversos",
       "startDate": "2024-04-01",
       "endDate": "2024-05-28",
-      "summary": "Actualmente, estoy colaborando con el desarrollo de la página web de la organización Multidiversos ONG, dedicada a promover la conciencia colectiva, facilitar información, generar espacios para personas con diversidad funcional, dar orientaciones y difundir información relevante sobre la diversidad funcional y la inclusión social. Este proyecto es especialmente significativo para mí, ya que me ofrece la oportunidad de aplicar mis habilidades y aumentar mis conocimientos, siendo mi primera experiencia práctica en el campo de la programación web."
+      "summary": "Recientemente, colaboré en el desarrollo de la página web de la organización Multidiversos ONG, dedicada a promover la conciencia colectiva, facilitar información, generar espacios para personas con diversidad funcional, dar orientaciones y difundir información relevante sobre la diversidad funcional y la inclusión social. Este proyecto fue especialmente significativo para mí, ya que me permitió aplicar mis habilidades y aumentar mis conocimientos, representando mi primera experiencia práctica en el campo de la programación web."
     }
   ],
   "skills": [
@@ -126,6 +126,11 @@
       "name": "Notion",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Organización"]
+    },
+    {
+      "name": "NextJs",
+      "level": "intermedio",
+      "keywords": ["Desarrollo Web", "Fullstack", "Frontend"]
     }
   ],
   "projects": [
@@ -133,14 +138,21 @@
       "name": "Multidiversos",
       "isActive": true,
       "description": "Este proyecto muestra mi versión del sitio web de la organización Multidiversos ONG, donde he abordado varios aspectos importantes para mejorar la experiencia del usuario, la accesibilidad y el rendimiento del sitio",
-      "highlights": ["Accesibilidad", "Rendimiento"],
+      "highlights": ["Accesibilidad", "Rendimiento", "Astro"],
       "url": "https://multidiversos.netlify.app/"
     },
     {
       "name": "Porfolio para Fotógrafos",
       "isActive": true,
       "description": "Esta página web está diseñada específicamente para un portafolio de fotografía. Con una estética elegante y funcional, esta página muestra cómo un fotógrafo puede presentar su trabajo de manera profesional.",
-      "highlights": ["Minimalista", "Portafolio"],
+      "highlights": ["Minimalista", "Portafolio", "React"],
+      "url": "https://photogrpher-portfolio.netlify.app/"
+    },
+    {
+      "name": "Landing Page de Marketing",
+      "isActive": true,
+      "description": "Esta landing page fue diseñada para una empresa de marketing digital 📈. Con un diseño moderno y atractivo, esta página muestra cómo una empresa puede presentar sus servicios de manera efectiva y profesional. 💼",
+      "highlights": ["Landing Page", "Diseño Moderno"],
       "url": "https://photogrpher-portfolio.netlify.app/"
     }
   ]
