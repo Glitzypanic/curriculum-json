@@ -1,0 +1,43 @@
+---
+import Section from "@/components/Section.astro";
+---
+
+<Section title="Certifications">
+  <div>
+    <img src="githubFoundations.png" alt="Github budget" />
+    <div class="dates">
+      <span>Github Foundations</span>
+      <span class="span2">Expires on August 01, 2027</span>
+    </div>
+  </div>
+</Section>
+
+<style>
+  div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    background: #eee;
+
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 6px;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  .dates {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    & .span2 {
+      color: black;
+      opacity: 0.6;
+    }
+  }
+</style>
